@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+main {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hidden {
+    display: none
+}
+
+header {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #333333;
+}
+
+main h1 {
+    font-size: 30px;
+}
+
+.search-holder {
+    margin: 30px 0
+}
+
+body {
+    background-image: url('wallpaper.webp');
+}
+
+section {
+    padding: 20px;
+    background-color: #FAC0D2;
+    border-radius: 5px
+}
+
+.results-status {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: 20px;
+}
+
+.results-data {
+    display: flex;
+    height: 120px
+}
+
+.results-main {
+    text-align: center
+}

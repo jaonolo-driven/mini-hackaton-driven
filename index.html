@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Que climão, hein!</title>
+</head>
+<script src="main.js"></script>
+<body>
+
+    <header class="hidden">
+        <div> 
+            <input type="text">
+            <button onclick="getGeolocationSearch(document.querySelector('header input').value)">procurar</button>
+        </div>
+    </header>
+
+    <main>
+        <h1>QUE CLIMÃO, HEIN!</h1>
+        <div class="search-holder">
+            <input type="text">
+            <button onclick="getGeolocationSearch(document.querySelector('main input').value)">Procurar</button>
+            <button onclick="getGeolocationBrowser()">Usar minha localização</button>
+        </div>
+        <p>Digite uma localização ou aperte o botão "Usar minha localização" para utilizar sua localização atual pelo navegador</p>
+        <section class="hidden">
+            
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</body>
+</html>
