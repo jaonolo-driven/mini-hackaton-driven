@@ -24,7 +24,7 @@ const getGeolocationBrowser = () => navigator.geolocation.getCurrentPosition(
 
 const getGeolocationSearch = (query) => {
     axios
-        .get(`http://api.openweathermap.org/geo/1.0/direct?q=${query}&appid=${API_KEY}`)
+        .get(`https://api.openweathermap.org/geo/1.0/direct?q=${query}&appid=${API_KEY}`)
         .then((response) => {
              parseLocationList(response.data)
         })
