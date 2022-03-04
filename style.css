@@ -37,6 +37,7 @@ main h1 {
 
 body {
     background-image: url('wallpaper.webp');
+    padding: 0 30px
 }
 
 section {
@@ -61,4 +62,8 @@ section {
 
 .results-main {
     text-align: center
+}
+
+main {
+    text-align: center;
 }
